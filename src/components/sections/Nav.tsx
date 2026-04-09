@@ -5,7 +5,6 @@
 // ============================================================
 
 import { motion } from "framer-motion";
-import { personalInfo } from "@/data/portfolio-data";
 
 const navLinks = [
   { label: "Stack",    href: "#stack"    },
