@@ -7,9 +7,9 @@
 import { motion } from "framer-motion";
 
 const navLinks = [
-  { label: "Stack",    href: "#stack"    },
+  { label: "Stack", href: "#stack" },
   { label: "Projects", href: "#projects" },
-  { label: "Contact",  href: "#contact"  },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Nav() {
@@ -21,9 +21,11 @@ export default function Nav() {
       transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
     >
       <div className="w-full max-w-none px-12 py-4 flex items-center justify-between">
-
         {/* Logo */}
-        <a href="#hero" className="font-bold text-2xl tracking-tight text-white">
+        <a
+          href="#hero"
+          className="font-bold text-2xl tracking-tight text-white"
+        >
           KW<span className="text-sky-400">.</span>
         </a>
 
@@ -40,7 +42,6 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-
       </div>
     </motion.nav>
   );
