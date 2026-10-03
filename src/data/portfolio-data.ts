@@ -58,6 +58,22 @@ export const skills = [
 // `featured: true` renders the card with an accent border
 export const projects = [
   {
+    id: "ai-resume-analyzer",
+    name: "AI Resume Analyzer",
+    description:
+      "An AI-powered web app that analyzes a resume against a specific job description, returning an overall match score plus targeted feedback on ATS compatibility, tone, content, structure, and skills — all processed client-side with no backend to maintain.",
+    liveUrl: "https://puter.com/app/ai-resume-analyzer-w0uv",
+    repoUrl: "https://github.com/kewilliams92/ai-resume-analyzer",
+    tags: ["React 19", "React Router v8", "TypeScript", "TailwindCSS v4", "Zustand", "Puter.js", "pdf.js"],
+    highlights: [
+      "Built an end-to-end analysis pipeline that converts uploaded PDF resumes into high-resolution images with pdf.js, then feeds them to a vision AI model for job-specific feedback and scoring.",
+      "Engineered custom prompt instructions that return structured JSON scoring across five dimensions — ATS, tone & style, content, structure, and skills — rendered as interactive score gauges and actionable tips.",
+      "Integrated Puter.js for serverless authentication, cloud file storage, and a key-value store, delivering a full-featured app with zero backend infrastructure or API keys.",
+      "Architected global state with Zustand and a drag-and-drop upload flow with real-time status updates, built on React Router v8 framework mode, React 19, and TailwindCSS v4.",
+    ],
+    featured: true,
+  },
+  {
     id: "budgetbox",
     name: "BudgetBox",
     description:
